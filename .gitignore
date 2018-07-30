@@ -1,6 +1,0 @@
-out/
-.idea/
-src/com/siemens/ct/bam/structures/TestEnums.java
-src/conditions/NameOfSeason.java
-src/conditions/RandomNumber.java
-src/conditions/UserStudyStage.java

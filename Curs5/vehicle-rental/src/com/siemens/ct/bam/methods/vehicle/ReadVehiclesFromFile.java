@@ -1,7 +1,7 @@
-package com.siemens.ct.bam.methods;
+package com.siemens.ct.bam.methods.vehicle;
 
-import com.siemens.ct.bam.objects.CarType;
-import com.siemens.ct.bam.objects.Vehicle;
+import com.siemens.ct.bam.models.CarType;
+import com.siemens.ct.bam.models.Vehicle;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

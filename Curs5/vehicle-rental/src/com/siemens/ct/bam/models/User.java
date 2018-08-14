@@ -1,4 +1,4 @@
-package com.siemens.ct.bam.objects;
+package com.siemens.ct.bam.models;
 
 public class User {
 
@@ -67,5 +67,13 @@ public class User {
 
     public void setEmittedYearOfDrivingLicense(int emittedYearOfDrivingLicense) {
         this.emittedYearOfDrivingLicense = emittedYearOfDrivingLicense;
+    }
+
+    @Override
+    public String toString() {
+        return "Personal coode: " + personalCode + ",first name: " + firstName +
+                ", last name: " + lastName + ", date of birth: " + dateOfBirth +
+                ", gender: " + gender + ", emitted year of driving license: " +
+                emittedYearOfDrivingLicense + " .";
     }
 }

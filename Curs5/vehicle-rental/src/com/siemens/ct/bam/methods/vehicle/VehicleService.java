@@ -1,7 +1,8 @@
-package com.siemens.ct.bam.methods;
+package com.siemens.ct.bam.methods.vehicle;
 
-import com.siemens.ct.bam.objects.User;
-import com.siemens.ct.bam.objects.Vehicle;
+import com.siemens.ct.bam.methods.vehicle.ReadVehiclesFromFile;
+import com.siemens.ct.bam.models.User;
+import com.siemens.ct.bam.models.Vehicle;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -9,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class VehicleMethods implements com.siemens.ct.bam.interfaces.VehicleMethods {
+public class VehicleService implements com.siemens.ct.bam.interfaces.VehicleMethods {
 
 
     ReadVehiclesFromFile reader = new ReadVehiclesFromFile();
@@ -47,8 +48,6 @@ public class VehicleMethods implements com.siemens.ct.bam.interfaces.VehicleMeth
     }
 
     @Override
-    public List<Vehicle> getRentedVehiclesForAnUser(User user) {
-        return null;
-    }
+    public List<Vehicle> getRentedVehiclesForAnUser(User user) { return null; }
 
 }

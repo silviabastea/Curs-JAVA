@@ -1,4 +1,4 @@
-package com.siemens.ct.bam.objects;
+package com.siemens.ct.bam.models;
 
 public class Vehicle {
 

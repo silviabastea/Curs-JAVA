@@ -1,7 +1,7 @@
 package com.siemens.ct.bam.interfaces;
 
-import com.siemens.ct.bam.objects.User;
-import com.siemens.ct.bam.objects.Vehicle;
+import com.siemens.ct.bam.models.User;
+import com.siemens.ct.bam.models.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;
